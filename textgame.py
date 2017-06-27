@@ -169,10 +169,6 @@ def maingame(curlev, curspot):
         field[8][8] = end
 
 
-
-
-
-
 def movePlayer(move, curlev, curspot):
     if move == 'a':
         curspot -= 1
